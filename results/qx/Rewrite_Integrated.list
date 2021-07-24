@@ -1,13 +1,13 @@
 # https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adblock4limbo.conf
-^https?:\/.jable\.tv/\bassets\b.*\b.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:/?.*\.jable\.tv\b.*\.gif$ url 302 https://limbopro.xyz/usr/uploads/2021/01/18107147.jpg
+^https?:\/.jable\.tv/\bassets\b.*\b.gif url 302 https://limbopro.com/usr/uploads/2020/10/2091577197.png
+^https:/?.*\.jable\.tv\b.*\.gif$ url 302 https://limbopro.com/usr/uploads/2021/01/18107147.jpg
 ackcdn url reject
 tsyndicate.*?\.push\.js url reject
-^https:?/\/\b.*\btsyndicate\b.*.gif url 302 https://limbopro.xyz/usr/uploads/2021/01/18107147.jpg
-^https:/?.*\.trwl1\b.* url 302 https://limbopro.xyz/865.html
-^https:/?.*\.trwl1\b.*?\SC$ url 302 https://limbopro.xyz/865.html
-^a.\bo333o\b.*\=1$ url 302 https://limbopro.xyz
-^<a\sclass\b.*uu-ads\b.*\</a>$ url 302 https://limbopro.xyz
+^https:?/\/\b.*\btsyndicate\b.*.gif url 302 https://limbopro.com/usr/uploads/2021/01/18107147.jpg
+^https:/?.*\.trwl1\b.* url 302 https://limbopro.com/865.html
+^https:/?.*\.trwl1\b.*?\SC$ url 302 https://limbopro.com/865.html
+^a.\bo333o\b.*\=1$ url 302 https://limbopro.com
+^<a\sclass\b.*uu-ads\b.*\</a>$ url 302 https://limbopro.com
 ^https:?\b.*\bgtm.js url reject
 ^https?:\/\/ads.\b.*\.js$ url reject
 ^https:?\b.*ads.exosrv.com/\b.*.js url reject
@@ -16,25 +16,25 @@ o333o url reject
 https:?/\/jable\.tv\/.?\b.*&action=js_stats&\b.* url reject
 https?:\/.jable\.tv\b.* url response-body <iframe .*?blank.*?</iframe>|<section.*?_blank.*?img.*?</section>|height="250"|<script data-cfasync="false"\s\b.*\.*?asewlfjqwlflkew\b.*?</script>|<div class="text-center mb-e-30"><\b.*?</iframe></div>|<a href="\b.*3_SC\b.*?</a>|<p class="sub-title">\n\W.*\n</p>|<a class="uu-ads"\s\b.*?</a> response-body <meta name="author" content="">
 https:?/\/jable\.tv\/.?\b.*&action=js_stats&rand=\d{1,13} url 302 https://jable.tv/
-https?:\/.jable\.tv/videos/\w{3,5}\-\d{3,4} url response-body http:?//\w{1,10}.\w{1,10} response-body https://limbopro.xyz
+https?:\/.jable\.tv/videos/\w{3,5}\-\d{3,4} url response-body http:?//\w{1,10}.\w{1,10} response-body https://limbopro.com
 ^https:?/\/jable\.tv/$ url 302 https://jable.tv/new-release/
 https://avgle.com/avideos.js(\?.*|) url reject
 https://avgle.com/images.php url reject
 ^https+:\/.avgle\.com url response-body 500px response-body 0px
 ^https+:\/.avgle\.com url response-body 750px response-body 0px
 poweredbyliquidfire url reject
-^https:?/\/ddrk.me.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/ddrk.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/ddrk.js"></script>
-https://ddrk.me/.*?(jpg|png|jpeg|webp|gif) url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
+^https:?/\/ddrk.me.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/ddrk.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/ddrk.js"></script>
+https://ddrk.me/.*?(jpg|png|jpeg|webp|gif) url 302 https://limbopro.com/usr/uploads/2020/10/2091577197.png
 ^https:?/\/www.nfmovies.com.* url request-header Mozilla.* request-header Mozilla/5.0 (iPhone; CPU iPhone OS 14_7 like Mac OS X; zh-cn) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/18G5023c Quark/5.0.6.4399 Mobile
-^https:?/\/www.nfmovies.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/nfmovies.css" type="text/css"><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/nfmovies.js"></script>
-^https:?/\/.*\.(mypianku|pianku)\..* url response-body </body> response-body <link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/mypianku.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/mypianku.js"></script></body>
+^https:?/\/www.nfmovies.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/nfmovies.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/nfmovies.js"></script>
+^https:?/\/.*\.(mypianku|pianku)\..* url response-body </body> response-body <link rel="stylesheet" href="https://limbopro.com/CSS/mypianku.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/mypianku.js"></script></body>
 https:?/\/.*?dililitv\b.* url response-body (<div class="wapbox imgs_m"\s\b.*</li></ul></div>) response-body dunai
 https://img.alicdn.com/imgextra\b.*gif url reject-img
 https:?/\/.*?dililitv\b.*.php\?ad.* url reject
 https:?/\/.*?dilidd\..*top.php url reject
-^https:?/\/netflav.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/netflav.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/netflav.js"></script>
+^https:?/\/netflav.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/netflav.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/netflav.js"></script>
 bann.js.* url reject
-pornhub url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/pornhub.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/pornhub.js"></script>
+pornhub url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/pornhub.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/pornhub.js"></script>
 ^https:/?\/.*?.xvideos-cdn.com.*?\/js\/.*?\/header\/.*?.js url reject
 ^https:/?\/.*?.xvideos.com.* url response-body <div id="ad-header-mobile-contener">.*?</div></div> response-body <meta name="author" content="">
 https://img.gsspat.jp/e/142f0528ca05d54cac0e1fa6559b94c4/337d15b53b19e7639c326b5f0ac7744c.gif url reject
@@ -43,9 +43,9 @@ https://img.gsspat.jp/e/142f0528ca05d54cac0e1fa6559b94c4/337d15b53b19e7639c326b5
 ^https:/?\/rt.gsspat.jp.* url reject
 ^https:/?\/gum.criteo.com.* url reject
 ^https:/?\/a.realsrv.com.*?ads-.*?.js url reject
-^https:/?\/.*?.91porn.com.* url response-body href=.*?(http://|https://)(\d{1,10}|\w{1,20}).(\w{1,20}.\w{1,30}|\w{1,30}).*?" response-body href="https://limbopro.xyz"
-https:/?\/fans.91p20.space\/fans/.*?.gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:?/\/www.cocomanhua.com.* url response-body <head> response-body <head><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/cocomanhua.js"></script><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/user-script.js"></script>
+^https:/?\/.*?.91porn.com.* url response-body href=.*?(http://|https://)(\d{1,10}|\w{1,20}).(\w{1,20}.\w{1,30}|\w{1,30}).*?" response-body href="https://limbopro.com"
+https:/?\/fans.91p20.space\/fans/.*?.gif url 302 https://limbopro.com/usr/uploads/2020/10/2091577197.png
+^https:?/\/www.cocomanhua.com.* url response-body <head> response-body <head><script type="text/javascript"  src="//limbopro.com/Adguard/cocomanhua.js"></script><script type="text/javascript"  src="//limbopro.com/Adguard/user-script.js"></script>
 ^https:?/\/www\.cocomanhua\.com.* url response-body <script>__cad.cpcvm_bottom();</script>|<script.*?data-ad_frequency.*?</script>|<script type="application/javascript">(\n.*){20,30}.*?</script>|<noscript>.*?(\n.*){1,5}.*?</noscript> response-body <meta name="author" content="">
 https://s3.amazonaws.com/9e27c0d6ac7a738463aebb2faadfdc48c0de202b9fa570955c943.* url reject
 https://www.cocomanhua.com/sw.js url reject-200
@@ -53,46 +53,46 @@ https://www.cocomanhua.com/sw.js url reject-200
 http://m.yhdm.io/bar/yfgg.js url reject
 ^https:/?\/zh\.nyahentai\.me.* url response-body  <script type="application/javascript">.*?(\n.*){1,30}.*?</script> response-body <meta name="author" content="">
 ^https:/?\/91porny\.com.* url response-body <tbody>.*?(\n.*){5,15}.*?</tbody>|<div class="container-fluid mb-3 p-0">.*?(\n.*){35,40}.*</div>|<div class="adv adv-g1 mb-0">.*?(\n.*){20,27}.*?</div> response-body <meta name="author" content="">
-^https:/?\/cdn\.jsdelivr\.net.*\/ad\/.*gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:?/\/javtsunami\.com(?!.*?(png|css|webp|jpg|js|php)).* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/javtsunami.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/javtsunami.js"></script>
+^https:/?\/cdn\.jsdelivr\.net.*\/ad\/.*gif url 302 https://limbopro.com/usr/uploads/2020/10/2091577197.png
+^https:?/\/javtsunami\.com(?!.*?(png|css|webp|jpg|js|php)).* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/javtsunami.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/javtsunami.js"></script>
 https://ads\.bullionyield\.com/.*?slider\.min\.js url reject
 ^https:?/\/www\.porntrex\.com.* url response-body <script>.*?(\n.*){15,20}.*?</script>|<iframe.*?150.*?ad.*?</iframe>|<div style.*?(\n.*){2,4}.*?250.*?(\n.*){2,4}.*?</div> response-body <meta name="author" content="">
 https://urtirepor\.com/.*?/.*?/sc/scssx/.*?/lib\.js url reject
 https://cluster\.awmserve\.com/incstage/min_exec_pt.js.* url reject
-zhenbuka(?!.*?(vodplay|\.ico|\.js|\.css|\.php|\.jpg|\.png)).* url response-body </body> response-body <link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/zhenbuka.css" type="text/css"><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/zhenbuka.js"></script></body>
-zhenbuka.*?/vodplay/.*\/ url response-body </body> response-body <script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/zhenbuka.after.js"></script></body>
-zhenbuka.*?/voddetail/.* url response-body </body> response-body <link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/zhenbuka.css" type="text/css"><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/zhenbuka.js"></script></body>
+zhenbuka(?!.*?(vodplay|\.ico|\.js|\.css|\.php|\.jpg|\.png)).* url response-body </body> response-body <link rel="stylesheet" href="https://limbopro.com/CSS/zhenbuka.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/zhenbuka.js"></script></body>
+zhenbuka.*?/vodplay/.*\/ url response-body </body> response-body <script type="text/javascript"  src="//limbopro.com/Adguard/zhenbuka.after.js"></script></body>
+zhenbuka.*?/voddetail/.* url response-body </body> response-body <link rel="stylesheet" href="https://limbopro.com/CSS/zhenbuka.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/zhenbuka.js"></script></body>
 dlads url reject
 ^https://www\.javbus\.com url response-body <div class="col-xs-12 col-md-4 text-center ptb10">|<div class="ad-list"> response-body <div style="display:none;">
 https:\/\/www\.hptoon\.com\/hanman\/static\/dist\/ppm\/js\/common(\d)\.js url 302 https://raw.githubusercontent.com/Maasea/sgmodule/master/script/hptoon/common.js
-^https://www.hptoon.com.* url response-body <head> response-body <head><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/hptoon.js"></script><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/user-script.js"></script>
-https://(www\.bde4\.cc|www\.mp4er\.com)/.*?play/.*?\.htm.* url response-body <head> response-body <head><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/bde4.play.v3.js"></script><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/bde4.css" type="text/css">
-(bde4|mp4er)(?!.*?(\.css|\.js|\.jpeg|\.png|\.gif)).*  url response-body </body> response-body <script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/bde4.js"></script></body>
-https://mdapp2.pw.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:?/\/mdapp2.pw.* url response-body <head> response-body <head><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/mdapp2.js"></script><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/mdapp2.css" type="text/css">
-https://www.mdapp1.pw.*?gif url 302 https://limbopro.xyz/usr/uploads/2020/10/2091577197.png
-^https:?/\/www.mdapp1.pw.* url response-body <head> response-body <head><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/mdapp2.js"></script><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/mdapp2.css" type="text/css">
-^https:?/\/nfstar.net.* url response-body <head> response-body <head><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/nfstar.js"></script><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/user-script.js"></script><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/nfstar.css" type="text/css">
-^https:?/\/91mjw.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/91mjw.css" type="text/css"><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/91mjw.js"></script>
+^https://www.hptoon.com.* url response-body <head> response-body <head><script type="text/javascript"  src="//limbopro.com/Adguard/hptoon.js"></script><script type="text/javascript"  src="//limbopro.com/Adguard/user-script.js"></script>
+https://(www\.bde4\.cc|www\.mp4er\.com)/.*?play/.*?\.htm.* url response-body <head> response-body <head><script type="text/javascript" src="//limbopro.com/Adguard/bde4.play.v3.js"></script><link rel="stylesheet" href="https://limbopro.com/CSS/bde4.css" type="text/css">
+(bde4|mp4er)(?!.*?(\.css|\.js|\.jpeg|\.png|\.gif)).*  url response-body </body> response-body <script type="text/javascript" src="//limbopro.com/Adguard/bde4.js"></script></body>
+https://mdapp2.pw.*?gif url 302 https://limbopro.com/usr/uploads/2020/10/2091577197.png
+^https:?/\/mdapp2.pw.* url response-body <head> response-body <head><script type="text/javascript"  src="//limbopro.com/Adguard/mdapp2.js"></script><link rel="stylesheet" href="https://limbopro.com/CSS/mdapp2.css" type="text/css">
+https://www.mdapp1.pw.*?gif url 302 https://limbopro.com/usr/uploads/2020/10/2091577197.png
+^https:?/\/www.mdapp1.pw.* url response-body <head> response-body <head><script type="text/javascript"  src="//limbopro.com/Adguard/mdapp2.js"></script><link rel="stylesheet" href="https://limbopro.com/CSS/mdapp2.css" type="text/css">
+^https:?/\/nfstar.net.* url response-body <head> response-body <head><script type="text/javascript"  src="//limbopro.com/Adguard/nfstar.js"></script><script type="text/javascript"  src="//limbopro.com/Adguard/user-script.js"></script><link rel="stylesheet" href="https://limbopro.com/CSS/nfstar.css" type="text/css">
+^https:?/\/91mjw.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/91mjw.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/91mjw.js"></script>
 91mjw.*?\?ad.* url reject
-^https:?/\/wnacg.org.* url response-body <head> response-body <head><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/wnacg.js"></script><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/user-script.js"></script>
-^https:?/\/www.hmtv.me.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/hmtv.css" type="text/css"><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/hmtv.js"></script></body>
-^https:?/\/www.riju.tv.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/riju.css" type="text/css"><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/riju.js"></script></body>
-^https:?/\/e.duboku.fun.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/duboku.css" type="text/css"><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/duboku.js"></script></body>
-^https:?/\/www.avtb01.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/avtb.css" type="text/css"><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/avtb.js"></script></body>
+^https:?/\/wnacg.org.* url response-body <head> response-body <head><script type="text/javascript"  src="//limbopro.com/Adguard/wnacg.js"></script><script type="text/javascript"  src="//limbopro.com/Adguard/user-script.js"></script>
+^https:?/\/www.hmtv.me.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/hmtv.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/hmtv.js"></script></body>
+^https:?/\/www.riju.tv.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/riju.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/riju.js"></script></body>
+^https:?/\/e.duboku.fun.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/duboku.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/duboku.js"></script></body>
+^https:?/\/www.avtb01.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/avtb.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/avtb.js"></script></body>
 ^http:?/\/www.btzx2017.com.* url request-header iPhone request-header 360
-^http:?/\/www.btzx2017.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/agmj.css" type="text/css"><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/agmj.js"></script></body>
-18comic url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/18comic.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/18comic.js"></script>
-biquge url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/biquge.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/biquge.js"></script>
+^http:?/\/www.btzx2017.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/agmj.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/agmj.js"></script></body>
+18comic url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/18comic.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/18comic.js"></script>
+biquge url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/biquge.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/biquge.js"></script>
 biquge.*?\.js url reject
-gimy url response-body </body> response-body <link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/gimy.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/gimy.js"></script></body>
-javfan url response-body </body> response-body <link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/javfan.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/javfan.js"></script></body>
-https://hpjav.tv/asset/css/style2.css.* url 302 https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/hpjav.style2.css
-https://hpjav.tv/asset/js/mainze\.js.* url 302 https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/hpjav.mainze.js
-https://ninjastream\.to/js/app\.js.* url 302 https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/hpjav.app.js
+gimy url response-body </body> response-body <link rel="stylesheet" href="https://limbopro.com/CSS/gimy.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/gimy.js"></script></body>
+javfan url response-body </body> response-body <link rel="stylesheet" href="https://limbopro.com/CSS/javfan.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/javfan.js"></script></body>
+https://hpjav.tv/asset/css/style2.css.* url 302 https://limbopro.com/CSS/hpjav.style2.css
+https://hpjav.tv/asset/js/mainze\.js.* url 302 https://limbopro.com/Adguard/hpjav.mainze.js
+https://ninjastream\.to/js/app\.js.* url 302 https://limbopro.com/Adguard/hpjav.app.js
 vidoza.*?\.(html|js) url reject
-pornbest url response-body <head> response-body <head><script type="text/javascript"  src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/pornbest.js"></script><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/pornbest.css" type="text/css">
-javgg url response-body <head> response-body <head><link rel="stylesheet" href="https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/CSS/javgg.css" type="text/css"><script type="text/javascript" src="//raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/javgg.js"></script>
+pornbest url response-body <head> response-body <head><script type="text/javascript"  src="//limbopro.com/Adguard/pornbest.js"></script><link rel="stylesheet" href="https://limbopro.com/CSS/pornbest.css" type="text/css">
+javgg url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/javgg.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/javgg.js"></script>
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/Advertising.conf
 ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[],
 ^https?:\/\/api\.21jingji\.com\/ad\/ url reject
