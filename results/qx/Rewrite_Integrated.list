@@ -33,7 +33,7 @@ https:?/\/.*?dililitv\b.*.php\?ad.* url reject
 https:?/\/.*?dilidd\..*top.php url reject
 ^https:?/\/netflav.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/netflav.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/netflav.js"></script>
 bann.js.* url reject
-pornhub url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/pornhub.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/pornhub.js"></script>
+(pornhub)(?!.*?(\.css|\.js|\.jpeg|\.png|\.gif|\.ico)).* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/pornhub.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/pornhubx.js"></script>
 ^https:/?\/.*?.xvideos-cdn.com.*?\/js\/.*?\/header\/.*?.js url reject
 ^https:/?\/.*?.xvideos.com.* url response-body <div id="ad-header-mobile-contener">.*?</div></div> response-body <meta name="author" content="">
 https://img.gsspat.jp/e/142f0528ca05d54cac0e1fa6559b94c4/337d15b53b19e7639c326b5f0ac7744c.gif url reject
