@@ -25,8 +25,7 @@ https://avgle.com/images.php url reject
 poweredbyliquidfire url reject
 ^https:?/\/ddrk.me.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/ddrk.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/ddrk.js"></script>
 https://ddrk.me/.*?(jpg|png|jpeg|webp|gif) url 302 https://limbopro.com/usr/uploads/2020/10/2091577197.png
-^https:?/\/www.nfmovies.com.* url request-header Mozilla.* request-header Mozilla/5.0 (iPhone; CPU iPhone OS 14_7 like Mac OS X; zh-cn) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/18G5023c Quark/5.0.6.4399 Mobile
-^https:?/\/www.nfmovies.com.* url response-body <head> response-body <head><link rel="stylesheet" href="https://limbopro.com/CSS/nfmovies.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/nfmovies.js"></script>
+(nfmovies)(?!.*?(\.css|\.js|\.jpeg|\.png|\.gif)).* url response-body </head> response-body <link rel="stylesheet" href="https://limbopro.com/CSS/nfmovies.css" type="text/css"><script type="text/javascript"  src="//limbopro.com/Adguard/nfmovies.js"></script></head>
 ^https:?/\/.*\.(mypianku|pianku)\..* url response-body </body> response-body <link rel="stylesheet" href="https://limbopro.com/CSS/mypianku.css" type="text/css"><script type="text/javascript" src="//limbopro.com/Adguard/mypianku.js"></script></body>
 https:?/\/.*?dililitv\b.* url response-body (<div class="wapbox imgs_m"\s\b.*</li></ul></div>) response-body dunai
 https://img.alicdn.com/imgextra\b.*gif url reject-img
