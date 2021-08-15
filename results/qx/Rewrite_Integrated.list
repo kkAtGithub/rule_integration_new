@@ -409,9 +409,9 @@ javgg url response-body <head> response-body <head><link rel="stylesheet" href="
 ^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add) url script-request-body https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js
 ^http:\/\/(www.)?aicoin\.cn\/$ url 302 https://www.aicoin.cn/?long_lives_aicoin=%22live%22
 # https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf
-^https?://(www.)?g.cn url 302 https://www.google.com
-^https?://(www.)?google.cn url 302 https://www.google.com
-^https?://(www.)?google.cn/search url 302 https://www.google.com/search
+^https?://(www\.)?g\.cn url 302 https://www.google.com
+^https?://(www\.)?google\.cn url 302 https://www.google.com
+^https?://(www\.)?google\.cn/search url 302 https://www.google.com/search
 ^http://coupon.m.jd.com/ url 302 https://coupon.m.jd.com/
 ^http://h5.m.jd.com/ url 302 https://h5.m.jd.com/
 ^http://item.m.jd.com/ url 302 https://item.m.jd.com/
