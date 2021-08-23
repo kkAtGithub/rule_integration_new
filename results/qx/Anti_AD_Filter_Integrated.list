@@ -8948,6 +8948,7 @@ DOMAIN-SUFFIX,luping.net.cn,REJECT
 DOMAIN-SUFFIX,mindmanager.cn,REJECT
 DOMAIN-SUFFIX,photozoomchina.com,REJECT
 DOMAIN-SUFFIX,xitongqingli.com,REJECT
+DOMAIN-SUFFIX,anydeskchina.cn,REJECT
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Privacy.list
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,cpatrk.net,REJECT
