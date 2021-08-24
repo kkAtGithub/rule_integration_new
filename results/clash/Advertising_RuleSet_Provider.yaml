@@ -9075,15 +9075,18 @@ payload:
   - DOMAIN-SUFFIX,zryydi.com
   - DOMAIN-SUFFIX,flash.cn
   - DOMAIN,geo2.adobe.com
+  - DOMAIN-SUFFIX,alienskins.cn
+  - DOMAIN-SUFFIX,anydeskchina.cn
   - DOMAIN-SUFFIX,betterzipcn.com
   - DOMAIN-SUFFIX,dongmansoft.com
   - DOMAIN-SUFFIX,earmasterchina.cn
+  - DOMAIN-SUFFIX,folxchina.cn
+  - DOMAIN-SUFFIX,hypeapp.cn
   - DOMAIN-SUFFIX,idmchina.net
   - DOMAIN-SUFFIX,luping.net.cn
   - DOMAIN-SUFFIX,mindmanager.cn
   - DOMAIN-SUFFIX,photozoomchina.com
   - DOMAIN-SUFFIX,xitongqingli.com
-  - DOMAIN-SUFFIX,anydeskchina.cn
   - DOMAIN-SUFFIX,adjust.com
   - DOMAIN-SUFFIX,cpatrk.net
   - DOMAIN-SUFFIX,sumologic.com
