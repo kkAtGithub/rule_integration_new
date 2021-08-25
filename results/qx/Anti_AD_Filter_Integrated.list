@@ -44319,3 +44319,10 @@ IP-CIDR,211.167.105.131/32,REJECT
 IP-CIDR,112.124.115.215/32,REJECT
 IP-CIDR,111.175.220.160/29,REJECT
 IP-CIDR,221.204.213.222/32,REJECT
+# https://raw.githubusercontent.com/kkAtGithub/rule_integration/main/custom_rule/Advertising.list
+DOMAIN-SUFFIX,ntp.msn.com,REJECT
+DOMAIN-SUFFIX,ntp.msn.cn,REJECT
+DOMAIN-SUFFIX,assets.msn.cn,REJECT
+DOMAIN-SUFFIX,api.msn.com,REJECT
+DOMAIN-SUFFIX,browser.events.data.msn.com,REJECT
+DOMAIN-SUFFIX,img-s-msn-com.akamaized.net,REJECT

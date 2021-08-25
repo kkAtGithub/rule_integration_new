@@ -9173,3 +9173,9 @@ DOMAIN,btrace.qq.com
 DOMAIN,btrace.video.qq.com
 DOMAIN,mtrace.qq.com
 DOMAIN,safebrowsing.urlsec.qq.com
+DOMAIN-SUFFIX,ntp.msn.com
+DOMAIN-SUFFIX,ntp.msn.cn
+DOMAIN-SUFFIX,assets.msn.cn
+DOMAIN-SUFFIX,api.msn.com
+DOMAIN-SUFFIX,browser.events.data.msn.com
+DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
