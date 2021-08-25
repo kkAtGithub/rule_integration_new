@@ -1,0 +1,7 @@
+DOMAIN-SUFFIX,c.msn.com,REJECT
+DOMAIN-SUFFIX,ntp.msn.com,REJECT
+DOMAIN-SUFFIX,ntp.msn.cn,REJECT
+DOMAIN-SUFFIX,assets.msn.cn,REJECT
+DOMAIN-SUFFIX,api.msn.com,REJECT
+DOMAIN-SUFFIX,browser.events.data.msn.com,REJECT
+DOMAIN-SUFFIX,img-s-msn-com.akamaized.net,REJECT
